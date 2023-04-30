@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+form {
+  margin-block: 3em;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 1.5em;
+}
+
+.movie-items {
+  height: 650px;
+  width: 500px;
+  border-radius: 2rem;
+  border: 1px solid;
+  text-align: center;
+  background-color: #5c7aea;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.movie-poster {
+  height: 60%;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search-box {
+  align-self: center;
+  width: 900px;
+  padding: 0.5em;
+  border-radius: 0.75em;
+  margin-right: 2rem;
+}
+
+.search-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 0.75em;
+}
+
+.overview {
+  font-size: 0.75rem;
+  margin-top: 0.6em;
+  background-color: #5c7aea;
+  text-align: left;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.2em;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  background-color: #5c7aea;
+}
